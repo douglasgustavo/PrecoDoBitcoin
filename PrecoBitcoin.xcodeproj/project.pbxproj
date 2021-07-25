@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5FB237426AD989800781FF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB237326AD989800781FF7 /* AppDelegate.swift */; };
+		A5FB237626AD989800781FF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB237526AD989800781FF7 /* SceneDelegate.swift */; };
+		A5FB237826AD989800781FF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB237726AD989800781FF7 /* ViewController.swift */; };
+		A5FB237B26AD989800781FF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FB237926AD989800781FF7 /* Main.storyboard */; };
+		A5FB237D26AD989A00781FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FB237C26AD989A00781FF7 /* Assets.xcassets */; };
+		A5FB238026AD989A00781FF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FB237E26AD989A00781FF7 /* LaunchScreen.storyboard */; };
+		A5FB238B26AD989A00781FF7 /* PrecoBitcoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB238A26AD989A00781FF7 /* PrecoBitcoinTests.swift */; };
+		A5FB239626AD989A00781FF7 /* PrecoBitcoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB239526AD989A00781FF7 /* PrecoBitcoinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5FB238726AD989A00781FF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5FB236826AD989800781FF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5FB236F26AD989800781FF7;
+			remoteInfo = PrecoBitcoin;
+		};
+		A5FB239226AD989A00781FF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5FB236826AD989800781FF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5FB236F26AD989800781FF7;
+			remoteInfo = PrecoBitcoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5FB237026AD989800781FF7 /* PrecoBitcoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrecoBitcoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FB237326AD989800781FF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5FB237526AD989800781FF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A5FB237726AD989800781FF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5FB237A26AD989800781FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5FB237C26AD989A00781FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5FB237F26AD989A00781FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5FB238126AD989A00781FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5FB238626AD989A00781FF7 /* PrecoBitcoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrecoBitcoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FB238A26AD989A00781FF7 /* PrecoBitcoinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrecoBitcoinTests.swift; sourceTree = "<group>"; };
+		A5FB238C26AD989A00781FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5FB239126AD989A00781FF7 /* PrecoBitcoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrecoBitcoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FB239526AD989A00781FF7 /* PrecoBitcoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrecoBitcoinUITests.swift; sourceTree = "<group>"; };
+		A5FB239726AD989A00781FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5FB236D26AD989800781FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FB238326AD989A00781FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FB238E26AD989A00781FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5FB236726AD989800781FF7 = {
+			isa = PBXGroup;
+			children = (
+				A5FB237226AD989800781FF7 /* PrecoBitcoin */,
+				A5FB238926AD989A00781FF7 /* PrecoBitcoinTests */,
+				A5FB239426AD989A00781FF7 /* PrecoBitcoinUITests */,
+				A5FB237126AD989800781FF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5FB237126AD989800781FF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5FB237026AD989800781FF7 /* PrecoBitcoin.app */,
+				A5FB238626AD989A00781FF7 /* PrecoBitcoinTests.xctest */,
+				A5FB239126AD989A00781FF7 /* PrecoBitcoinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5FB237226AD989800781FF7 /* PrecoBitcoin */ = {
+			isa = PBXGroup;
+			children = (
+				A5FB237326AD989800781FF7 /* AppDelegate.swift */,
+				A5FB237526AD989800781FF7 /* SceneDelegate.swift */,
+				A5FB237726AD989800781FF7 /* ViewController.swift */,
+				A5FB237926AD989800781FF7 /* Main.storyboard */,
+				A5FB237C26AD989A00781FF7 /* Assets.xcassets */,
+				A5FB237E26AD989A00781FF7 /* LaunchScreen.storyboard */,
+				A5FB238126AD989A00781FF7 /* Info.plist */,
+			);
+			path = PrecoBitcoin;
+			sourceTree = "<group>";
+		};
+		A5FB238926AD989A00781FF7 /* PrecoBitcoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5FB238A26AD989A00781FF7 /* PrecoBitcoinTests.swift */,
+				A5FB238C26AD989A00781FF7 /* Info.plist */,
+			);
+			path = PrecoBitcoinTests;
+			sourceTree = "<group>";
+		};
+		A5FB239426AD989A00781FF7 /* PrecoBitcoinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5FB239526AD989A00781FF7 /* PrecoBitcoinUITests.swift */,
+				A5FB239726AD989A00781FF7 /* Info.plist */,
+			);
+			path = PrecoBitcoinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5FB236F26AD989800781FF7 /* PrecoBitcoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FB239A26AD989A00781FF7 /* Build configuration list for PBXNativeTarget "PrecoBitcoin" */;
+			buildPhases = (
+				A5FB236C26AD989800781FF7 /* Sources */,
+				A5FB236D26AD989800781FF7 /* Frameworks */,
+				A5FB236E26AD989800781FF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrecoBitcoin;
+			productName = PrecoBitcoin;
+			productReference = A5FB237026AD989800781FF7 /* PrecoBitcoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5FB238526AD989A00781FF7 /* PrecoBitcoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FB239D26AD989A00781FF7 /* Build configuration list for PBXNativeTarget "PrecoBitcoinTests" */;
+			buildPhases = (
+				A5FB238226AD989A00781FF7 /* Sources */,
+				A5FB238326AD989A00781FF7 /* Frameworks */,
+				A5FB238426AD989A00781FF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5FB238826AD989A00781FF7 /* PBXTargetDependency */,
+			);
+			name = PrecoBitcoinTests;
+			productName = PrecoBitcoinTests;
+			productReference = A5FB238626AD989A00781FF7 /* PrecoBitcoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5FB239026AD989A00781FF7 /* PrecoBitcoinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FB23A026AD989A00781FF7 /* Build configuration list for PBXNativeTarget "PrecoBitcoinUITests" */;
+			buildPhases = (
+				A5FB238D26AD989A00781FF7 /* Sources */,
+				A5FB238E26AD989A00781FF7 /* Frameworks */,
+				A5FB238F26AD989A00781FF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5FB239326AD989A00781FF7 /* PBXTargetDependency */,
+			);
+			name = PrecoBitcoinUITests;
+			productName = PrecoBitcoinUITests;
+			productReference = A5FB239126AD989A00781FF7 /* PrecoBitcoinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5FB236826AD989800781FF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A5FB236F26AD989800781FF7 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					A5FB238526AD989A00781FF7 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A5FB236F26AD989800781FF7;
+					};
+					A5FB239026AD989A00781FF7 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A5FB236F26AD989800781FF7;
+					};
+				};
+			};
+			buildConfigurationList = A5FB236B26AD989800781FF7 /* Build configuration list for PBXProject "PrecoBitcoin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5FB236726AD989800781FF7;
+			productRefGroup = A5FB237126AD989800781FF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5FB236F26AD989800781FF7 /* PrecoBitcoin */,
+				A5FB238526AD989A00781FF7 /* PrecoBitcoinTests */,
+				A5FB239026AD989A00781FF7 /* PrecoBitcoinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5FB236E26AD989800781FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FB238026AD989A00781FF7 /* LaunchScreen.storyboard in Resources */,
+				A5FB237D26AD989A00781FF7 /* Assets.xcassets in Resources */,
+				A5FB237B26AD989800781FF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FB238426AD989A00781FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FB238F26AD989A00781FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5FB236C26AD989800781FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FB237826AD989800781FF7 /* ViewController.swift in Sources */,
+				A5FB237426AD989800781FF7 /* AppDelegate.swift in Sources */,
+				A5FB237626AD989800781FF7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FB238226AD989A00781FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FB238B26AD989A00781FF7 /* PrecoBitcoinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FB238D26AD989A00781FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FB239626AD989A00781FF7 /* PrecoBitcoinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5FB238826AD989A00781FF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5FB236F26AD989800781FF7 /* PrecoBitcoin */;
+			targetProxy = A5FB238726AD989A00781FF7 /* PBXContainerItemProxy */;
+		};
+		A5FB239326AD989A00781FF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5FB236F26AD989800781FF7 /* PrecoBitcoin */;
+			targetProxy = A5FB239226AD989A00781FF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5FB237926AD989800781FF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5FB237A26AD989800781FF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5FB237E26AD989A00781FF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5FB237F26AD989A00781FF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5FB239826AD989A00781FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5FB239926AD989A00781FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5FB239B26AD989A00781FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PrecoBitcoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.seeit.PrecoBitcoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5FB239C26AD989A00781FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PrecoBitcoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.seeit.PrecoBitcoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5FB239E26AD989A00781FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PrecoBitcoinTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.seeit.PrecoBitcoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrecoBitcoin.app/PrecoBitcoin";
+			};
+			name = Debug;
+		};
+		A5FB239F26AD989A00781FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PrecoBitcoinTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.seeit.PrecoBitcoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrecoBitcoin.app/PrecoBitcoin";
+			};
+			name = Release;
+		};
+		A5FB23A126AD989A00781FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PrecoBitcoinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.seeit.PrecoBitcoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrecoBitcoin;
+			};
+			name = Debug;
+		};
+		A5FB23A226AD989A00781FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PrecoBitcoinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.seeit.PrecoBitcoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrecoBitcoin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5FB236B26AD989800781FF7 /* Build configuration list for PBXProject "PrecoBitcoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FB239826AD989A00781FF7 /* Debug */,
+				A5FB239926AD989A00781FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FB239A26AD989A00781FF7 /* Build configuration list for PBXNativeTarget "PrecoBitcoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FB239B26AD989A00781FF7 /* Debug */,
+				A5FB239C26AD989A00781FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FB239D26AD989A00781FF7 /* Build configuration list for PBXNativeTarget "PrecoBitcoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FB239E26AD989A00781FF7 /* Debug */,
+				A5FB239F26AD989A00781FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FB23A026AD989A00781FF7 /* Build configuration list for PBXNativeTarget "PrecoBitcoinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FB23A126AD989A00781FF7 /* Debug */,
+				A5FB23A226AD989A00781FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5FB236826AD989800781FF7 /* Project object */;
+}
