@@ -19,7 +19,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnAtualizar(_ sender: UIButton) {
+        self.botaoAtualizar.setTitle("Atualizando...", for: .normal)
         self.obterPrecoBitcoin()
+        self.botaoAtualizar.setTitle("Atualizar", for: .normal)
     }
     
     func formatarPreco(preco: NSNumber) -> String {
@@ -33,7 +35,6 @@ class ViewController: UIViewController {
     }
     
     func obterPrecoBitcoin() {
-        self.botaoAtualizar.setTitle("Atualizando...", for: .disabled)
         if let url = URL(string: "https://blockchain.info/pt/ticker") {
             let tarefa = URLSession.shared.dataTask(with: url) { (dados, response, error) in
                 if error == nil {
@@ -46,7 +47,6 @@ class ViewController: UIViewController {
                                         let precoFormatado = self.formatarPreco(preco: NSNumber(value: preco))
                                         DispatchQueue.main.async {
                                             self.valorBitcoin.text = "R$ " + precoFormatado
-                                            self.botaoAtualizar.setTitle("Atualizar", for: .normal)
                                         }
                                     }
                                 }
